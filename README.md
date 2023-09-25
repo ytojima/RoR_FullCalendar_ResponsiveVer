@@ -12,6 +12,7 @@ docker compose run --rm app bundle install
 docker compose run --rm app yarn install
 docker compose run --rm app rails db:create
 docker compose run --rm app rails db:migrate
+docker compose run --rm app rails db:seed
 docker compose up
 ```
 
